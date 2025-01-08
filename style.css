@@ -6,5 +6,36 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFDF0;
-    font-family: 'Open-sans';
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    max-height: 100vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFF2C2;
+}
+
+.header {
+    font-family: 'Playwrite AU SA', 'Opensans', sans-serif;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+span.header-emoji {
+    font-size: 2em;
+}
+
+@media (max-width: 600px){
+    .header {
+        font-size: 16px;
+    }
 }
