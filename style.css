@@ -6,24 +6,17 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFDF0;
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-img {
-    width: 100%;
-}
-
 .header-container{
     display: flex;
-    padding: px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 25vh;
-    max-height: 100vh;
+    max-height: 300vh;
     padding-bottom: 32px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -34,25 +27,50 @@ img {
     font-family: 'Playwrite AU SA', 'Opensans', sans-serif;
     justify-self: center;
     align-self: center;
-    font-size: 42px;
+    font-size: 46px;
     margin: 0;
     padding: 0;
 }
 
-.header-img {
+.headerImage-container {
     display: flex;
+    flex: wrap;
     justify-content: center;
 }
 
-.header-column {
-    flex: 50%;
-    max-width: 25%;
-}
+.imageColumn {
+    max-width: 30%;
+} 
 
-.header-column img{
-    vertical-align: middle;
+.headerimg1, .headerimg2, .headerimg3, .headerimg4{
+    vertical-align: middle; 
     width: 100%;
 }
+
+.headerimg1{
+    border-left: 5px solid white;
+    border-top: 5px solid white ;
+    border-top-left-radius: 30px;
+}
+
+.headerimg2{
+    border-left: 5px solid white;
+    border-bottom: 5px solid white ;
+    border-bottom-left-radius: 30px;
+}
+
+.headerimg3{
+    border-right: 5px solid white;
+    border-top: 5px solid white ;
+    border-top-right-radius: 30px;
+}
+
+.headerimg4{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white ;
+    border-bottom-right-radius: 30px;
+}
+
 
 span.header-emoji {
     font-size: 2em;
