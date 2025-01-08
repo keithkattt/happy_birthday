@@ -149,7 +149,8 @@ span.header-emoji {
     display: flex;
     background-color: #E5D0AC;
     padding: 16px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     font-weight: 700;
 }
 
