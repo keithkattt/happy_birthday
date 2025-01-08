@@ -165,9 +165,13 @@ span.header-emoji {
       flex: 100%;
       max-width: 100%;
     }
-  }
+    
+    .message-text, .subcontent-text{
+        font-size: 18px;
+    }
+}
 
-@media screen and (max-width: 700px){
+@media (max-width: 700px){
     .header, .content-text {
         font-size: 25px;
     }
@@ -184,9 +188,4 @@ span.header-emoji {
     .header {
         font-size: 14px;
     }
-
-    .message-text, .subcontent-text{
-        font-size: 18px;
-    }
-
 }
