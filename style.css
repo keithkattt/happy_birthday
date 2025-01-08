@@ -174,7 +174,7 @@ span.header-emoji {
 }
 
 @media (max-width: 500px){
-    .header, .subcontent-text, .message-text {
+    .header {
         font-size: 18px;
     }
 }
