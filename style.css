@@ -167,20 +167,20 @@ span.header-emoji {
     }
   }
 
-@media (max-width: 700px){
+@media screen and (max-width: 700px){
     .header, .content-text {
         font-size: 25px;
     }
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     .header, .message-text, .subcontent-text{
         font-size: 18px;
     }
 }
 
 
-@media (max-width: 380px){
+@media screen and (max-width: 380px){
     .header {
         font-size: 14px;
     }
